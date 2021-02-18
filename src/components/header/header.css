@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  color: white;
+  margin: 30px 10px 0 5px;
+}
+.header h1 {
+  word-spacing: 15px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.header ul {
+  display: flex;
+  justify-content: space-around;
+}
+.header ul li {
+  margin-left: 70px;
+  list-style-type: none;
+}
+.header a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+}
+.header a:hover {
+  color: khaki;
+}
+.header .active {
+  color: crimson;
+}

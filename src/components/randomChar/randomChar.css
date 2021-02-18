@@ -1,0 +1,26 @@
+.charBlock {
+  width: 45%;
+  background: white;
+  color: black;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px 1px black;
+}
+.charBlock h4 {
+  text-align: center;
+  padding-top: 10px;
+}
+.charBlock ul {
+  padding: 15px 25px;
+}
+.charBlock li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  margin: 10px 0;
+  border-bottom: 1px solid black;
+}
+.span {
+  color: white;
+  font-size: 25px;
+}
